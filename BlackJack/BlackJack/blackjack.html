@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  
+        gtag('config', 'G-GDJ96R43NC');
+      </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Semi+Condensed:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="main">BLACKJACK</h2>
+        <h3><span id="blackjack-result">Let's Play</span></h3>
+        <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h2>You:<span id="your-blackjack-result">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Dealer:<span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">HIT</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">STAND</button>
+                <button class="btn-lg btn-danger mr-4 " id="blackjack-deal-button">DEAL</button>
+                <br>
+                <br>
+                <!-- <button onclick="location.href=''" type="button" class="btn-lg btn-dark mr-2">Rules</button> -->
+                <a class="btn-lg btn-dark mr-2" href="../rules/rules.html" role="button">Rules</a>
+        
+            
+            </div>
+            
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th><span id="col">WINS</span></th>
+                    <th><span id="col">LOSSES</span></th>
+                    <th><span id="col">DRAWS</span></th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id ="draws">0</span></td>
+                </tr>
+            </table>
+           
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

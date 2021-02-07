@@ -1,0 +1,142 @@
+ 
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+	background-image: url('../whatthefun/images/bg.jpg');
+ 
+     
+}
+.main{
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(35, 161, 35);
+}
+h3{
+    color:white;
+	font-weight: 300;
+}
+
+
+.container{
+    width:75%;
+    margin:0px auto;
+    text-align: center;
+    
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2,.flex-blackjack-row-3{
+    display:flex;
+    padding:10px;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;  
+   
+}
+.flex-blackjack-row-1 img {
+	width: 25%;
+	padding: 10px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-background-wallpaper-3.jpg?w=900') center;
+
+    color:#ffffff;
+}
+.flex-blackjack-row-1 div {
+	border: 2px solid white;
+	padding: 10px;
+	height: 450px;
+	flex: 1;
+	text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+	width: 25%;
+	padding: 10px;
+}
+ 
+
+.flex-blackjack-row-2 div {
+	/* border: 1px solid black; */
+	padding: 10px;
+}
+
+table, th, td {
+	padding: 5px;
+	border: 1px solid black;
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	 
+	#blackjack-result, #player {
+		font-size: 27px;
+	}
+	.flex-blackjack-row1 div {
+		height: 410px;
+		padding: 5px;
+	}
+	.flex-blackjack-row2 div {
+		border: 1px solid black;
+		padding: 5px;
+	}
+	#blackjack-hit-button, #blackjack-stand-button, #blackjack-deal-button {
+		font-size: 17px;
+	}
+}
+#col,#wins,#losses,#draws{
+    color:black;
+	font-weight: bolder;
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	 
+	#blackjack-result, #player {
+		font-size: 24px;
+	}
+	.flex-blackjack-row1 div {
+		height: 300px;
+		padding: 4px;
+	}
+	.flex-blackjack-row2 div {
+		border: 1px solid black;
+		padding: 4px;
+	}
+	#blackjack-hit-button, #blackjack-stand-button, #blackjack-deal-button {
+		font-size: 16px;
+	}
+	 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	 
+	#blackjack-result, #player {
+		font-size: 21px;
+	}
+	.flex-blackjack-row1 div {
+		height: 280px;
+		padding: 1px;
+	}
+	.flex-blackjack-row2 div {
+		border: 1px solid black;
+		padding: 1px;
+	}
+	#blackjack-hit-button, #blackjack-stand-button, #blackjack-deal-button {
+		font-size: 14px;
+	}
+	table {
+		font-size: 11px;
+	}
+	 
+}
+
+/********** Ultra small devices only **********/
+
+@media (max-width: 280px) {
+	#blackjack-hit-button, #blackjack-stand-button, #blackjack-deal-button {
+		font-size: 11px;
+	}
+}
+
+ 
+
+ 
